@@ -1,9 +1,9 @@
 {
   "name": "MyTest",
-  "version": "0.1.0",
-  "summary": "A short description of MyTest.",
+  "version": "1.0",
+  "summary": "A short fewfew description of MyTest.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/MyTest",
+  "homepage": "https://github.com/baxiaxx/MyTest",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "Avatar": "285558940@qq.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/MyTest.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/baxiaxx/MyTest.git",
+    "tag": "1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "7.0"
   },
   "source_files": "MyTest/Classes/**/*"
 }

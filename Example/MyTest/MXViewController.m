@@ -7,6 +7,7 @@
 //
 
 #import "MXViewController.h"
+#import "MyTest.h"
 
 @interface MXViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [Test1 abc];
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,5 +1,5 @@
 PODS:
-  - MyTest (0.1.0)
+  - MyTest (1.0)
 
 DEPENDENCIES:
   - MyTest (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MyTest: 56bb239753b2c6ec3f8b2fd1d71f0163566decc1
+  MyTest: 1323b6901805ba2d13dcda4a757094b5ee84b424
 
 PODFILE CHECKSUM: 17bc7a4209d708caabb09b66fbbdf347910eb748
 
