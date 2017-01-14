@@ -31,7 +31,17 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '7.0'
 
   s.source_files = 'MyTest/Classes/**/*'
-  
+
+  if ENV['IS_SOURCE']
+    s.source_files = 'MyTest/Classes/**/*'
+    puts '-----------IS_SOURCE now-----------'
+  else
+    s.source_files = 'Pod/Products/include/**'
+    s.public_header_files = 'Pod/Products/include/*.h'
+    s.ios.vendored_libraries = 'Pod/Products/MyTest.framework'
+    puts '-----------framework now-----------'
+  end
+
   # s.resource_bundles = {
   #   'MyTest' => ['MyTest/Assets/*.png']
   # }
