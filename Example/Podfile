@@ -1,11 +1,12 @@
-use_frameworks!
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/baxiaxx/MyTestSpec.git'
 
 target 'MyTest_Example' do
   pod 'MyTest', :path => '../'
+  pod 'MyTest', '~> 1.0'
+end
 
-  target 'MyTest_Tests' do
-    inherit! :search_paths
+target 'MyTest' do
 
-    
-  end
 end
